@@ -120,16 +120,18 @@ After this output block, proceed to Section 5 (Action Gate).
 
 ## 4. Output — Contested / Context-Required Path
 
-When synthesis is contested or the decision depends on a project-context variable, output exactly this structure:
+When synthesis is contested or the decision depends on a project-context variable, output exactly this structure.
+
+**Output language:** match the language of the user's question (Korean question → Korean prose, English question → English prose). The template below shows English labels; section headers stay English.
 
 ```
 **No clear standard — your context decides.**
 
-업계 의견 분기:
+Expert split:
 - <Option X>: <one-line rationale> (<url>)
 - <Option Y>: <one-line rationale> (<url>)
 
-너의 답에 따라 자동 결정됨:
+Decision follows from your answer:
 "<one factual question about user's project context>"
 ```
 
