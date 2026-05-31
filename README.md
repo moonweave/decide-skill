@@ -1,5 +1,10 @@
 # /decide — Best Practice Research & Autonomous Decision
 
+> [!IMPORTANT]
+> This standalone skill repo is now a legacy mirror. Active development moved to
+> Decision Kernel:
+> https://github.com/moonweave/decision-kernel/tree/main/skills/decide
+
 A user-invoked Claude Code skill that researches current industry best practice (WebSearch + context7 + GitHub) and either decides autonomously (reversible actions) or escalates with a factual-context question (contested cases).
 
 Built for the case where the user is a non-expert in some software domain and would rather Claude **research and decide** than ask "which would you prefer?" on questions where a clear industry standard exists.
