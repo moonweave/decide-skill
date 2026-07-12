@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > This standalone skill repo is now a legacy mirror. Active development moved to
 > Decision Kernel:
-> https://github.com/moonweave/decision-kernel/tree/main/skills/decide
+> https://github.com/Moonweave-Systems/decision-kernel/tree/main/skills/decide
 
 A user-invoked Claude Code skill that researches current industry best practice (WebSearch + context7 + GitHub) and either decides autonomously (reversible actions) or escalates with a factual-context question (contested cases).
 
